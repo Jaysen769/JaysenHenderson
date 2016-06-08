@@ -152,3 +152,17 @@ a{
 
 }
 /*END WORK DETAIL*/
+
+/*PRINTS*/
+.p_container{
+	position: relative;
+	width: 2000px;
+	padding-top: 100px;
+	padding-left: 50px;
+}
+.p_image{
+	display: inline;
+	position: relative;
+	width: 600px;
+}
+/*END PRINTS*/
