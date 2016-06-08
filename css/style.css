@@ -85,7 +85,7 @@ a{
 .wl_container{
 	position: relative;
 	width: 80%;
-	height: 700px;
+	height: 35em;
 	margin: auto;
 	padding-top: 100px;
 }
@@ -103,7 +103,13 @@ a{
 	left: 20px;
 	width: 60%;
 }
+.wl_title{
+	font-size: 2em;
+	font-family: serif;
+	color: black;
+}
 .wl_text{
+	color: #00ff00;
 	font-size: 3em;
 }
 .wl_text:hover{
