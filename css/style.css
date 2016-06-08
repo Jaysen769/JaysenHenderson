@@ -1,0 +1,154 @@
+a{
+	text-decoration: none;
+}
+
+/*NAVIGATION*/
+#top, #bottom, #left, #right {
+	background: black;
+	position: fixed;
+	z-index: 10;
+}
+#left, #right {
+	top: 0; 
+	bottom: 0;
+	width: 1em;
+}
+#left { left: 0; }
+#right { right: 0; }	
+#top, #bottom {
+	left: 0; 
+	right: 0;
+	height: 1em;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+#navindex{
+	z-index: 10;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.3em;
+	color: black;
+	position: fixed;
+  	top: 5%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+#navdesign{
+	z-index: 10;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.3em;
+	color: black;
+	position: fixed;
+  	top: 50%;
+  	left: 2.5%;
+  	transform: translate(-50%, -50%);
+}
+#navprints{
+	z-index: 10;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.3em;
+	color: black;
+	position: fixed;
+  	top: 50%;
+  	right: 1.5%;
+  	transform: translate(-50%, -50%);
+}
+#navcontact{
+	z-index: 10;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.3em;
+	color: black;
+	position: fixed;
+  	bottom: 2%;
+  	left: 48%;
+  	transform: translate(-50%, -50%);
+  	transform: rotate(180deg);
+}
+/*END NAVIGATION*/
+
+/*INDEX PAGE*/
+#my_graphic{
+	font-size: 48px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+}
+#my_graphic_container{
+	width: 2000px;
+	position: absolute;
+	left: 70px;
+	top: 50px;
+}
+/*END INDEX PAGE*/
+
+/*WORK LIST*/
+.wl_container{
+	position: relative;
+	width: 80%;
+	height: 700px;
+	margin: auto;
+	padding-top: 100px;
+}
+.wl_image{
+	z-index: 2;
+	position: absolute;
+	right: 20px;
+}
+.wl_image:hover{
+	z-index:4;
+}
+.wl_textbox{
+	z-index: 3;
+	position: absolute;
+	left: 20px;
+	width: 60%;
+}
+.wl_text{
+	font-size: 3em;
+}
+.wl_text:hover{
+	
+}
+/*END WORK LIST*/
+
+/*WORK DETAIL*/
+.wd_textbox{
+	z-index: 4;
+	position: fixed;
+	margin: auto;
+	width: 83%;
+}
+.wd_textbox:hover{
+	z-index: 6;
+}
+.wd_text{
+	font-size: 2.5em;
+}
+.wd_image{
+	position: relative;
+	z-index: 5;
+	float: right;
+	display: absolute;
+	width: 85%;
+	margin-bottom: 25px;
+}
+.wd_imageR{
+	position: relative;
+	z-index: 5;
+	float: right;
+	display: absolute;
+	width: 50%;
+	margin-bottom: 25px;
+}
+.wd_imageL{
+	position: relative;
+	z-index: 5;
+	float: right;
+	display: absolute;
+	width: 50%;
+	margin-bottom: 25px;
+}
+.wd_title{
+
+}
+/*END WORK DETAIL*/
